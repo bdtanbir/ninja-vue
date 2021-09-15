@@ -1,0 +1,88 @@
+
+.frontend-ninja-vue {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.frontend-ninja-vue li + li {
+  margin-left: 10px;
+}
+.frontend-ninja-vue li a {
+  text-decoration: none;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+.frontend-ninja-vue li a.router-link-exact-active {
+  background: #fff;
+}
+.frontend-ninja-vue li a:focus {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+
+sup {
+    color: #bd0404;
+    font-size: 80%;
+}
+.signup-form {
+    max-width: 610px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    padding: 30px;
+    margin: 30px 0 0 0;
+}
+.signup-form form .input-group + .input-group {
+    margin-top: 15px;
+}
+.signup-form form .input-group input, .signup-form form .input-group select {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    line-height: 20px;
+}
+.signup-form form .input-group select {
+    font-size: 16px;
+}
+.signup-form form .input-group input[type="checkbox"] {
+    width: 25px;
+}
+.signup-form form .input-group input[type="checkbox"]:after {
+    left: 8px;
+    top: 4px;
+}
+.thank-you-msg h1 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+}
+.thank-you-msg h1 strong {
+    font-weight: 600;
+}
+.signup-form .skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+.signup-form .skills span + span {
+    margin-left: 8px;
+}
+.signup-form .skills span {
+    background: #ddd;
+    border-radius: 30px;
+    padding: 1px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.signup-form .hints {
+    font-size: 12px;
+    font-style: italic;
+    color: #aaaaaa;
+}
+.signup-form .hints strong {
+    color: #666;
+    font-weight: 700;
+}
+
